@@ -33,13 +33,14 @@ for i in arr1:
     print(e)
 print(arr1)
 
-arr1 -=5
+arr1 -=5 # %= 5 or +=5 or *=5
 print(arr1)
 
 arr3 = arr1+arr2
 print(arr3)
 
-print(np.cos(arr1)) #np.log/ np.cos/ np.sqr/ np.sum/ np.min/ np.max/ np.sort/ np.unic/ np.concatenate/
+print(np.cos(arr1)) #np.log/ np.cos/ np.sqr/ np.sum/
+#                    np.min/ np.max/ np.sort/ np.unic/ np.concatenate/
 print(np.concatenate([arr1, arr2]))
 
 
